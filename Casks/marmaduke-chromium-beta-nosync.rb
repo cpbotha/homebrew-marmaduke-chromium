@@ -1,10 +1,9 @@
 cask 'marmaduke-chromium-beta-nosync' do
 	version '73.0.3637.0'
-	release '615361'
   sha256 'd1ed8f049b2ae5bc56922f19fe3f0f28337df3ec20cac3f312c6298f72572eb4'
 
   # https://github.com/macchrome/chromium/releases/ was verified as official when first introduced to the cask
-  url "https://github.com/macchrome/chromium/releases/download/v#{version}-r#{release}-macOS/Chromium.#{version}.nosync.app.zip"
+  url "https://github.com/macchrome/chromium/releases/download/v#{version}-r615361-macOS/Chromium.#{version}.nosync.app.zip"
   appcast 'https://github.com/macchrome/chromium/releases.atom'
   name 'Chromium'
   homepage 'https://github.com/macchrome/chromium/releases'
