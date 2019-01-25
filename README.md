@@ -1,43 +1,44 @@
-#+TITLE: Homebrew Tap for the Marmaduke Chromium builds
+![Chromium](https://i.imgur.com/UWgow3l.png)
+
+# Homebrew Tap for the Marmaduke Chromium builds
 
 If you're looking for a macOS build of the latest stable Chromium
 which includes modern video codecs such as H.264, then the marmaduke
-builds as advertised on [[https://chromium.woolyss.com/#mac][Woolyss]] are your best bet.
+builds as advertised on [Woolyss](https://chromium.woolyss.com/#mac) are your best bet.
 
 This homebrew tap was created for the easy installation of
 above-mentioned builds.
 
 To install do:
 
-#+BEGIN_SRC shell
+```
 brew tap SheinH/marmaduke-chromium
 brew cask install marmaduke-chromium
-#+END_SRC
+```
 
 If you prefer the build without google sync and widevine (which you do
 need to play for example Netflix), then rather install:
 
-#+BEGIN_SRC shell
+```
 brew cask install marmaduke-chromium-nosync
-#+END_SRC
+```
 
 An ungoogled chromium build with widevine support is also available:
-
-#+BEGIN_SRC shell
+```
 brew cask install marmaduke-chromium-ungoogled
-#+END_SRC
+```
 
 Dev versions are also available for both sync and nosync:
 
-#+BEGIN_SRC shell
+```
 brew cask install marmaduke-chromium-dev
 brew cask install marmaduke-chromium-dev-nosync
-#+END_SRC
+```
 
 From here on, do the following to upgrade when a new build becomes
 available:
 
-#+BEGIN_SRC shell
+```
 brew update
 brew cask upgrade marmaduke-chromium
-#+END_SRC
+```
