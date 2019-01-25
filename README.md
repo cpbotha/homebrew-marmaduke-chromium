@@ -5,9 +5,10 @@
 If you're looking for a macOS build of the latest stable Chromium
 which includes modern video codecs such as H.264, then the marmaduke
 builds as advertised on [Woolyss](https://chromium.woolyss.com/#mac) are your best bet.
+This homebrew tap contains casks for the latest versions of marmaduke's chromium builds.
 
-This homebrew tap was forked from [cpbotha](https://github.com/cpbotha/homebrew-marmaduke-chromium)'s
-existing tap and includes additional casks for dev and ungoogled builds.
+This tap was forked from [cpbotha](https://github.com/cpbotha/homebrew-marmaduke-chromium)'s
+existing tap with added dev and ungoogled builds.
 
 To install do:
 
