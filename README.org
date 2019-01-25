@@ -21,7 +21,7 @@ need to play for example Netflix), then rather install:
 brew cask install marmaduke-chromium-nosync
 #+END_SRC
 
-An ungoogled chromium build with widevine support are also available:
+An ungoogled chromium build with widevine support is also available:
 
 #+BEGIN_SRC shell
 brew cask install marmaduke-chromium-ungoogled
