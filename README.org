@@ -21,7 +21,7 @@ need to play for example Netflix), then rather install:
 brew cask install marmaduke-chromium-nosync
 #+END_SRC
 
-Beta versions are also available for both sync and nosync
+Beta versions are also available for both sync and nosync:
 
 #+BEGIN_SRC shell
 brew cask install marmaduke-chromium-beta
