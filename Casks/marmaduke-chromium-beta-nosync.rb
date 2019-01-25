@@ -1,7 +1,7 @@
 cask 'marmaduke-chromium-beta-nosync' do
 	module Utils
-		def release
-			'615361'
+		def self.release
+			615361
 		end
 	end
 	version '73.0.3637.0'
