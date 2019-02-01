@@ -14,4 +14,11 @@ cask 'marmaduke-chromium-dev-nosync' do
   homepage 'https://github.com/macchrome/chromium/releases'
 
   app 'Chromium.app'
+
+  zap trash: [
+               '~/Library/Preferences/org.chromium.Chromium.plist',
+               '~/Library/Caches/Chromium',
+               '~/Library/Application Support/Chromium',
+               '~/Library/Saved Application State/org.chromium.Chromium.savedState',
+             ]
 end
