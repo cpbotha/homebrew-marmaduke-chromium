@@ -1,11 +1,11 @@
 cask 'marmaduke-chromium-dev-nosync' do
   module Utils
     def self.release
-      615361
+      628207
     end
   end
-  version '73.0.3637.0'
-  sha256 'd1ed8f049b2ae5bc56922f19fe3f0f28337df3ec20cac3f312c6298f72572eb4'
+  version '74.0.3690.0'
+  sha256 'd0c510fa8ece6fddc54eddff85a3de884b6e1c3bacbd109ba03232802784620b'
 
   # https://github.com/macchrome/chromium/releases/ was verified as official when first introduced to the cask
   url "https://github.com/macchrome/chromium/releases/download/v#{version}-r#{Utils.release}-macOS/Chromium.#{version}.nosync.app.zip"

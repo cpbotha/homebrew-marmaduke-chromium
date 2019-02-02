@@ -1,11 +1,11 @@
 cask 'marmaduke-chromium-dev' do
   module Utils
     def self.release
-      615361
+      628207
     end
   end
-  version '73.0.3637.0'
-  sha256 '2f433a2cbd420715c7aee110300e508b1df6c5ad01239cdd746c8dcd8d65cbd5'
+  version '74.0.3690.0'
+  sha256 '61d3d58b04f652b9894a963884a13a0d2d854306a1b394edcf9a07e59b40740b'
 
   # https://github.com/macchrome/chromium/releases/ was verified as official when first introduced to the cask
   url "https://github.com/macchrome/chromium/releases/download/v#{version}-r#{Utils.release}-macOS/Chromium.#{version}.sync.app.zip"
