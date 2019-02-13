@@ -1,10 +1,10 @@
 cask 'marmaduke-chromium-ungoogled' do
   module Utils
     def self.release
-      599034
+		612437
     end
   end
-  version '71.0.3578.98'
+  version '72.0.3626.96'
   sha256 '7a0b6334c9e75d74914ef83dcf05ed94a0ce6760c212dadf8be02d449517d675'
 
   # https://github.com/macchrome/macstable/releases/ was verified as official when first introduced to the cask
