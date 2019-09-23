@@ -1,9 +1,9 @@
 cask 'marmaduke-chromium-ungoogled' do
-  version '76.0.3809.87'
-  sha256 '8e79627b768543653b672977a422b1aea50105ee5656ebabf43ab7310d4df13a'
+  version '77.0.3865.90'
+  sha256 :no_check
 
   # https://github.com/macchrome/macstable/releases/ was verified as official when first introduced to the cask
-  url "https://github.com/macchrome/macstable/releases/download/v#{version}-r665002-Ungoogled-macOS/Chromium.app.ungoogled-#{version}.zip"
+  url "https://github.com/macchrome/macstable/releases/download/v#{version}-r681094-Ungoogled-macOS/Chromium.app.ungoogled-#{version}.zip"
   appcast 'https://github.com/macchrome/macstable/releases.atom'
   name 'Chromium'
   homepage 'https://github.com/macchrome/macstable/releases'
