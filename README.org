@@ -1,7 +1,7 @@
 #+TITLE: Homebrew Tap for the Marmaduke Chromium builds
 
-**This tap is not maintained anymore. Please go to [[https://github.com/mtslzr/marmaduke-chromium][Matthew Salazar's tap]], where
-he has graciously taken over maintenance!**
+**This tap and repo are not maintained anymore. Please go to [[https://github.com/mtslzr/marmaduke-chromium][Matthew Salazar's
+repo]] where he has graciously taken over maintenance!**
 
 If you're looking for a macOS build of the latest stable Chromium
 which includes modern video codecs such as H.264, then the marmaduke
